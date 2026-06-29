@@ -1,0 +1,10 @@
+Salve aqui as 5 imagens do carrossel do hero, com EXATAMENTE estes nomes:
+
+  hero-1.jpg  -> mãe com criança no colo, consulta no notebook (médico de máscara)
+  hero-2.jpg  -> idoso de óculos em consulta pelo celular
+  hero-3.jpg  -> pessoa no sofá em consulta no notebook (médico de cabelo grisalho)
+  hero-4.jpg  -> mãe com bebê em consulta pelo celular (médica de óculos)
+  hero-5.jpg  -> pessoa em consulta no notebook à noite (médico careca)
+
+Depois de salvar, rode `npm run dev` e as imagens já aparecem girando no topo.
+Se usar outra extensão (.png/.webp), atualize os nomes em src/components/data.ts (HERO_IMAGES).
