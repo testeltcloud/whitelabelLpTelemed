@@ -49,7 +49,7 @@ module.exports = {
         },
       },
       animation: {
-        heroWhiteWipe: 'heroWhiteWipe 1.6s ease-out forwards',
+        heroWhiteWipe: 'heroWhiteWipe 0.5s ease-out forwards',
         slideFlash: 'slideFlash 1.6s ease-in-out forwards',
         heroTextUp: 'heroTextUp 1s ease-out forwards',
         revealUp: 'revealUp 0.9s cubic-bezier(0.22,1,0.36,1) both',

@@ -68,20 +68,20 @@ const Hero: React.FC<Props> = ({ onScrollToPlans }) => {
       <div className="relative z-[4] mx-auto flex h-full max-w-5xl flex-col items-center justify-center px-4 pb-12 text-center md:pb-20">
         <h1
           className="mb-8 max-w-5xl text-4xl font-extrabold leading-[1.1] text-white opacity-0 [text-shadow:0_2px_20px_rgba(0,0,0,0.3)] md:text-6xl lg:text-7xl"
-          style={mounted ? { animation: 'heroTextUp 1s ease-out 0.3s forwards' } : undefined}
+          style={mounted ? { animation: 'heroTextUp 0.6s ease-out 0.05s forwards' } : undefined}
         >
           Cuidar da Sua Família é Nossa Maior Missão
         </h1>
         <p
           className="mb-12 max-w-3xl text-lg font-normal leading-relaxed text-white opacity-0 md:text-2xl"
-          style={mounted ? { animation: 'heroTextUp 1s ease-out 0.6s forwards' } : undefined}
+          style={mounted ? { animation: 'heroTextUp 0.6s ease-out 0.15s forwards' } : undefined}
         >
           Consultas médicas 24h todos os dias, em até 10 minutos, por vídeo chamada no seu telefone
           celular ou computador.
         </p>
         <div
           className="flex flex-wrap justify-center gap-3.5 opacity-0"
-          style={mounted ? { animation: 'heroTextUp 1s ease-out 0.9s forwards' } : undefined}
+          style={mounted ? { animation: 'heroTextUp 0.6s ease-out 0.25s forwards' } : undefined}
         >
           <button
             onClick={onScrollToPlans}
