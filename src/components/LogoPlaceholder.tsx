@@ -13,7 +13,7 @@ const LogoPlaceholder: React.FC<Props> = ({ light }) => (
     className={`flex h-[52px] min-w-[150px] items-center justify-center rounded-lg border-2 border-dashed px-4 md:h-[64px] md:min-w-[190px] ${
       light
         ? 'border-white/50 bg-white/10 text-white'
-        : 'border-coral/60 bg-coralBg text-coral'
+        : 'border-coral/60 bg-coralBg text-coralText'
     }`}
   >
     <span className="text-center text-xs font-extrabold uppercase leading-tight tracking-[0.12em] md:text-sm">

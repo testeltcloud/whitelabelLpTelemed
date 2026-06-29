@@ -13,7 +13,7 @@ const placeholderFeatures = ['Personalize os benefícios do plano'];
 const PersonalizeTag: React.FC<{ light?: boolean }> = ({ light }) => (
   <div
     className={`mb-6 flex items-center justify-center rounded-lg border-2 border-dashed px-4 py-2.5 ${
-      light ? 'border-white/50 bg-white/10 text-white' : 'border-coral/60 bg-coralBg text-coral'
+      light ? 'border-white/50 bg-white/10 text-white' : 'border-coral/60 bg-coralBg text-coralText'
     }`}
   >
     <span className="text-center text-xs font-extrabold uppercase tracking-[0.12em]">

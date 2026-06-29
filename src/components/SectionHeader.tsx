@@ -6,7 +6,7 @@ export const Pill: React.FC<{ variant?: 'coral' | 'blue'; children: React.ReactN
 }) => (
   <span
     className={`inline-block rounded-full px-5 py-2 text-sm font-semibold ${
-      variant === 'coral' ? 'bg-coralBg text-coral' : 'bg-blueTagBg text-navy'
+      variant === 'coral' ? 'bg-coralBg text-coralText' : 'bg-blueTagBg text-navy'
     }`}
   >
     {children}
