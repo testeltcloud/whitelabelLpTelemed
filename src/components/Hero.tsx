@@ -42,7 +42,7 @@ const Hero: React.FC<Props> = ({ onScrollToPlans }) => {
               alt={`Atendimento médico por telemedicina ${i + 1}`}
               fill
               sizes="100vw"
-              quality={80}
+              quality={72}
               priority={i === 0}
               loading={i === 0 ? 'eager' : 'lazy'}
               className="object-cover"

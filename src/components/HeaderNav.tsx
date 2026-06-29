@@ -59,6 +59,9 @@ const HeaderNav: React.FC<Props> = ({ onScrollToPlans }) => {
           <img
             src={LOGO_SRC}
             alt="Logo"
+            width={200}
+            height={200}
+            fetchPriority="high"
             className={compact ? 'h-9 w-auto md:h-11' : 'h-12 w-auto md:h-16'}
           />
         </a>
@@ -115,7 +118,7 @@ const HeaderNav: React.FC<Props> = ({ onScrollToPlans }) => {
           <div className="absolute right-0 top-0 flex h-full w-72 flex-col rounded-l-2xl bg-white shadow-2xl">
             <div className="flex items-center justify-between border-b border-brandborder px-5 py-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={LOGO_SRC} alt="Logo" className="h-12 w-auto" />
+              <img src={LOGO_SRC} alt="Logo" width={200} height={200} className="h-12 w-auto" />
               <button
                 onClick={() => setMenuOpen(false)}
                 aria-label="fechar menu"
